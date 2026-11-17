@@ -1,0 +1,11 @@
+name = "lean-wasserstein-subadditivity"
+version = "0.1.0"
+defaultTargets = ["WassersteinSubadditivity"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.0"
+
+[[lean_lib]]
+name = "WassersteinSubadditivity"
